@@ -10,9 +10,10 @@ Final dataset is included as a binary file [here](https://github.com/elena-du/Me
 
 ## Results
 
-Features with most predictive power are likes, dislikes and interactions of these variables, which is not surprising. It helps building pretty good inferencial linear regression model and studying linear relationships that comprise the recepie for views generation. Best model shows 0.99 R2 on Train and 0.77 R2 on Test sets.
+Features with most predictive power are likes, dislikes and interactions of these variables, which is not surprising. It helps building pretty good inferential linear regression model and studying linear relationships that comprise the recipe for views generation. Best model shows 0.99 R2 on Train and 0.77 R2 on Test sets.
 
-The problem with this outcome is that you can infer, but cannot predict number of views for a new video as likes and dislikes are accumulated in parallel with views accumulation. I built a model that excluded likes and dislikes and got as high as 0.47 R2 with all features and interaction generated, regularization, and removing outliers. The latter was the most effective as classic assumptions of linear regression do not necesserily true for this set up.
+The problem with this outcome is that you can infer but cannot predict number of views for a new video as likes and dislikes are accumulated in parallel with views accumulation. I built a model that excluded likes and dislikes and got as high as 0.47 R2 with all features and interaction generated, regularization, and removing outliers. The latter was the most effective as classic assumptions of linear regression do not necessarily true for this set up.
+
 
 
 
